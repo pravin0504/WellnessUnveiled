@@ -1,0 +1,172 @@
+.HomeIntroSection{
+    display: flex; 
+    flex-direction: row;
+}
+
+#introduction{
+    /* background-color: rgb(125, 216, 216); */
+    border: 1px;
+    width: 50%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    line-height: 1.2;
+    border-color: blueviolet;
+    border-width: 2px;
+    /* border-style: dashed; */
+}
+h1 {
+    text-shadow: 2px 2px 5px red;
+  }
+
+.HomeMenu{
+    display: flex;
+    background-color: aqua;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 2px;
+    list-style: none;
+    /* position: fixed;
+    top: 0px;
+    left: 0px; */
+}
+
+.navmenu{
+    display: flex;
+    gap:16px;
+   justify-content: center;
+   list-style: none;
+   margin-right: 40px;
+   color: black;
+}
+#logo{
+    display: flex;
+    gap:16px;
+    list-style: none;
+}
+.homeImg{
+    /* width: 100%; */
+    width: 800px;;
+    justify-content: center; 
+    background-image: url("https://source.unsplash.com/1600x1000/?health") ;
+    background-repeat: no-repeat; 
+    /* background-size:cover; */
+    /* background-position:center;
+    align-items:flex-end;
+    margin: 200px;
+    vertical-align: top; */
+    
+    
+
+
+}
+.services-card{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;  
+    align-items: flex-end;
+
+}
+
+.desc{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+
+.TodaysPoll{
+    background-color: chartreuse;
+    margin: 20px;
+    padding: 20px;
+}
+
+.title{
+    text-align: center;
+}
+
+.leftmenuBlogs{
+    border-style:double;
+    list-style: none;
+    background-color: chartreuse;
+    height: auto;
+    width: fit-content;
+    text-align: center;
+    margin-top: 0;
+    
+}
+.menupadding{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: bisque;
+    
+}
+
+.card-img{
+    width: 300px;
+    margin:30px auto;
+    padding: 8px;
+    border:1px solid lightgray;
+    border-radius: 14px;
+    position: relative;
+    top: 10px;
+}
+
+.servicesCard{
+    width: 300px; 
+    /* margin: 30px auto; */
+    padding: 5px;
+    background-color: aqua;  
+    align-items: center;
+    
+}
+
+/* unvisited link */
+a:link{
+    color: black;
+    
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+    background-color: yellow;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    background-color: yellow;
+  }
+
+  a{
+    outline: none;
+  }
+
+  .footer{
+    background-color:rgb(106, 255, 0);
+    height: 100px;
+  }
+
+  body{
+    background-color:lightcyan;
+  }
+
+  .Post{
+    display:none;
+  }
+
+  .Post li:hover {
+    display: block;
+    color: coral;
+  }
