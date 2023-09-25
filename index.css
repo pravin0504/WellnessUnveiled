@@ -1,17 +1,23 @@
+
+
+body{
+  background-color:lightcyan;
+}
+
 .HomeIntroSection{
     display: flex; 
     flex-direction: row;
 }
 
-#introduction{
+.introduction{
     /* background-color: rgb(125, 216, 216); */
     border: 1px;
     width: 50%;
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
+    padding: 20px;
     line-height: 1.2;
     border-color: blueviolet;
     border-width: 2px;
@@ -26,12 +32,9 @@ h1 {
     background-color: aqua;
     width: 100%;
     justify-content: space-between;
-    margin: 10px;
-    padding: 2px;
-    list-style: none;
-    /* position: fixed;
-    top: 0px;
-    left: 0px; */
+    margin: 1px; 
+    position:fixed;
+   
 }
 
 .navmenu{
@@ -49,7 +52,8 @@ h1 {
 }
 .homeImg{
     /* width: 100%; */
-    width: 800px;;
+    margin: 50px;
+    width: 650px;;
     justify-content: center; 
     background-image: url("https://source.unsplash.com/1600x1000/?health") ;
     background-repeat: no-repeat; 
@@ -75,12 +79,12 @@ h1 {
 
 .desc{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 
 .TodaysPoll{
-    background-color: chartreuse;
+    background-color: rgb(209, 222, 197);
     margin: 20px;
     padding: 20px;
 }
@@ -92,11 +96,12 @@ h1 {
 .leftmenuBlogs{
     border-style:double;
     list-style: none;
-    background-color: chartreuse;
+    /* background-color:lightyellow; */
     height: auto;
     width: fit-content;
     text-align: center;
-    margin-top: 0;
+    margin-top: 100px;
+    border:cyan;
     
 }
 .menupadding{
@@ -107,7 +112,7 @@ h1 {
     
 }
 
-.card-img{
+/* .card-img{
     width: 300px;
     margin:30px auto;
     padding: 8px;
@@ -119,12 +124,11 @@ h1 {
 
 .servicesCard{
     width: 300px; 
-    /* margin: 30px auto; */
     padding: 5px;
     background-color: aqua;  
     align-items: center;
     
-}
+} */
 
 /* unvisited link */
 a:link{
@@ -154,12 +158,11 @@ a:link{
   }
 
   .footer{
-    background-color:rgb(106, 255, 0);
-    height: 100px;
-  }
-
-  body{
-    background-color:lightcyan;
+    /* background-color:rgb(198, 212, 188); */
+    height: 200px;
+    border-style:ridge;
+    width:100%
+    
   }
 
   .Post{
@@ -170,3 +173,62 @@ a:link{
     display: block;
     color: coral;
   }
+
+
+  .servicesCard{
+    width: 260px;
+    border-radius: 14px;
+    padding: 8px;
+    border: 1px solid lightgray;
+  }
+
+  .scard-img{
+    width: 100%;
+    border-radius: 14px 14px 0 0 ;
+  }
+
+  .scardbody{
+    padding: 8px;
+  }
+
+  .services{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-items: center;
+    /* width: 500px; */
+
+  }
+
+  .searchhome{
+    /* justify-content: center; */
+    margin-top:10px;
+    display: flex;
+    gap:10px;
+  }
+
+  .searchbox{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+}
+.SearchBtn{
+  /* position: fixed; */
+  top: 5px;
+  background-color: aquamarine;
+  /* padding: 5px 5px; */
+  border-radius: 10px;
+  font-size: 15px;
+  /* margin-bottom: 5px; */
+ 
+}
+.SubHeader{
+  display: none;
+  list-style: none;
+}
+.subreciepies:hover>.SubHeader{
+  display: block;
+
+
+}
